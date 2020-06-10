@@ -1,7 +1,7 @@
 # UnityRestClient
 
 Un client reposant qui permet de faire de simples appels GET, POST, PUT et DELETE http depuis Unity3d.
-## How to Use It ?
+## Comment l'utiliser ?
 
 Il existe actuellement deux scènes dans le projet qui peuvent être utilisées pour savoir comment l'utiliser. Également quelques extraits ci-dessous pour faire la démonstration de ses fonctionnalités dans Unity3d.
 
