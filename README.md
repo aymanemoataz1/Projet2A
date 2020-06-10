@@ -1,13 +1,12 @@
 # UnityRestClient
 
-A Restful Client that allows making simple GET, POST, PUT, and DELETE http calls from within Unity3d.
-
+Un client reposant qui permet de faire de simples appels GET, POST, PUT et DELETE http depuis Unity3d.
 ## How to Use It ?
 
-There are two scenes currently in the project that can be used to find out how to use it. Also few snippets below to demo its functionality within Unity3d.
+Il existe actuellement deux scènes dans le projet qui peuvent être utilisées pour savoir comment l'utiliser. Également quelques extraits ci-dessous pour faire la démonstration de ses fonctionnalités dans Unity3d.
 
 
-1. Example of how to call Azure Vision API
+1. exemple d'appel de l'api azur
 
 ```csharp
 // setup the request header
@@ -28,7 +27,7 @@ StartCoroutine(RestWebClient.Instance.HttpPost(baseUrl, JsonUtility.ToJson(image
 }));
 ```
 
-2. Example of Get and Post
+2. Exemple Get and Post
 ```csharp
 // send a get request
 StartCoroutine(RestWebClient.Instance.HttpGet($"{baseUrl}api/values", (r) => OnRequestComplete(r)));
